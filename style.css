@@ -1,0 +1,288 @@
+h1{
+background-color:  #005D43;
+color:  #D80100;
+width: 960px;
+margin: 0 auto;
+
+}
+#navBar{
+list-style-type:none;
+padding:0;
+margin:0 auto;
+width:960px;
+background-color: #005D43;
+min-height: 38px;
+border-bottom: 5px solid #D80100;
+border-top: 1px solid #D80100;
+}
+#navBar li{
+  float: left;
+  border-right:1px solid #D80100;
+  position: relative;
+
+}
+#navBar li:last-child{
+  border-right: none;
+}
+#navBar li a{
+text-decoration:none;
+background-color: #005D43;
+padding:10px 20px;
+color:white;
+display: block;
+transition: 1s all ease;
+}
+#navBar li a:hover{
+  color:red;
+  background-color:black;
+}
+#navBar li ul{
+  list-style-type: none;
+  padding: 0;
+position: absolute;
+left: -999999px;
+}
+#navBar li ul li{
+float: none;
+border-left:none;
+border-right:none;
+border-top: 1px solid #D80100;
+border-bottom: 1px solid red;
+
+}
+#navBar li:hover ul{
+left: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 960px;
+  margin: 0 auto;
+
+}
+.wrapper .colum{
+  width: 300px;
+  float: left;
+  margin-right:30px;
+}
+.wrapper .third-colum{
+  margin-right: 0px;
+}
+.wrapper .colum h2{
+  text-align: center;
+  background-color:  #005D43;
+}
+.wrapper .colum h3{
+  text-align: center;
+  font-size: 12px;
+  background-color:  #005D43;
+}
+.wrapper .colum p{
+  text-align: justify;
+  overflow: scroll;
+  height: 229px;
+  padding: 5px;
+  font-size: 12px;
+}
+.wrapper .colum img{
+  width: 300px;
+  height: 180px;
+
+}
+ .ac{
+  text-decoration:none;
+  color: #D80100;
+  background:#005D43;
+  text-align:center;
+  display: block;
+  padding: 5px 0px;
+  font-weight: bold;
+}
+.ac:hover{
+  color: #005D43;
+  background:#D80100;
+}
+
+#image img{
+  width: 960px;
+  height: 250px;
+}
+#project{
+  background-color: #282C34;
+  overflow: hidden;
+
+}
+#project h2{
+  text-align: center;
+  color: #005D43;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: #282C34;
+}
+#project p{
+  text-align: center;
+  color: #FFDC3F;
+  background-color: #282C34;
+  margin-bottom: 50px;
+}
+#project .pmid .p2 {
+width: 300px;
+margin-left: 80px;
+margin-right:150px;
+float: left;
+margin-bottom: 50px;
+}
+#project .pmid .p2 p{
+text-align: justify;
+color: #4EB97E;
+margin-bottom: 20px;
+}
+ #project .pmid .p2 img{
+width:300px;
+}
+#project .pmid .p2 a {
+  text-decoration:none;
+  font-size: 15px;
+  color: #D80100;
+  border: 1px solid #ffff;
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin-left: 100px;
+}
+
+
+#project .pmid .p3 {
+width: 300px;
+margin-left: 50px;
+float: left;
+margin-bottom: 50px;
+}
+#project .pmid .p3 p{
+text-align: justify;
+color: #4EB97E;
+margin-bottom: 20px;
+}
+ #project .pmid .p3 img{
+
+width:300px;
+
+}
+#project .pmid .p3 a {
+  text-decoration:none;
+  font-size: 15px;
+  color: #D80100;
+  border: 1px solid #ffff;
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin-left: 100px;
+}
+#test{
+  background-color: #21A6E6;
+}
+#test h2{
+  text-align: center;
+  color: #005D43;
+  margin-bottom: 10px;
+
+
+}
+
+#test p{
+  text-align: center;
+  color: #FFDC3F;
+
+
+}
+#services{
+  background-color: #FFE390;
+  overflow: hidden;
+}
+
+
+
+#service .ls {
+width: 300px;
+margin-left: 80px;
+margin-right:150px;
+float: left;
+margin-bottom: 50px;
+}
+#service .ls h2{
+  text-align: center;
+  color: #005D43;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: #282C34;
+
+}
+
+#service .ls p{
+text-align: justify;
+color: #4EB97E;
+margin-bottom: 20px;
+}
+#service .ls .l1{
+width:20px;
+}
+#service .ls .img4{
+width:300px;
+height: 241px;
+}
+
+#service .ls a {
+  text-decoration:none;
+  font-size: 15px;
+  color: #D80100;
+  border: 1px solid #ffff;
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin-left: 100px;
+}
+
+
+#service .rs {
+width: 300px;
+margin-left: 50px;
+float: left;
+margin-bottom: 50px;
+}
+
+#service .rs h2{
+  text-align: center;
+  color: #005D43;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: #282C34;
+}
+#service .rs p{
+text-align: justify;
+color: #4EB97E;
+margin-bottom: 20px;
+}
+#service .rs .l2{
+width:20px;
+}
+#service .rs .img5{
+width:300px;
+height: 241px;
+}
+#service .rs a {
+  text-decoration:none;
+  font-size: 15px;
+  color: #D80100;
+  border: 1px solid #ffff;
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin-left: 100px;
+}
+#foter p {
+ text-decoration:none;
+ color: #D80100;
+ background:#005D43;
+ text-align:center;
+ display: block;
+ padding: 5px 0px;
+ font-weight: bold;
+}
